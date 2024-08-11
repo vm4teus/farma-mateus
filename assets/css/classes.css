@@ -1,0 +1,60 @@
+.main-bg {
+  background-image: url('../img/fundoo.jpeg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+
+.white-bg {
+  background: var(--white-color);
+}
+
+.main-content {
+  max-width: 120rem;
+  /* 120rem = 1200px */
+  margin: 0 auto;
+  /* padding: 3rem; */
+  padding: 10rem var(--gap);
+  /* correção */
+}
+
+.section {
+  min-height: 100vh;
+  /* parte 3/4 */
+  /* color: var(--primary-color); */
+}
+
+/* parte 3 */
+.menu-spacing {
+  height: 6.5rem;
+}
+
+body .full-width{
+  width: 100%;
+  flex: 1 1 100%;
+}
+
+.produtos-bg {
+  background-image: url(../img/fundoo2.jpeg) ;
+  color: var(--white-color) ;
+  background-size: cover;
+  background-position: center center;
+}
+
+.contact-bg {
+  background-image: url(../img/fundoo4.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.sobre-bg {
+  background-image: url(../img/fundoo3.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.tabela-bg {
+  background-image: url(../img/fundoo5.jpeg);
+  background-size: cover;
+  background-position: center center;
+}

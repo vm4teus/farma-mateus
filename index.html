@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vida Farma Online</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com"> <!--  &gt;  mudar para -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside id="logo" class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1><a href="#intro">VIDA FARMA</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#intro">Início</a></li>
+          <li><a href="#top3">Sobre</a></li>
+          <li><a href="#grid-one">Tipos de Produtos</a></li>
+          <li><a href="#gallery">Imagens</a></li>
+          <li><a href="#pricing">Serviços e Preços</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <!-- Parte 3 -->
+  <div id="intro" class="menu-spacing"></div>
+  <section class="intro main-bg ">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Bem Vindo(a)!</h2>
+        <p>Seja bem-vindo à nossa farmácia, onde seu bem-estar é nossa prioridade! Aqui, você encontra cuidado, conveniência e produtos de saúde de qualidade para atender às suas necessidades. Visite-nos e descubra como podemos ajudar você a viver com mais saúde e conforto.</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/logofarmacia.gif" alt="log de html js e css">
+      </div>
+      <div class="banner">
+        <img src="assets/img/banner-farmacia.jpeg" alt="banner img" id="bannerImage">
+        </div>
+    </div>
+  </section>
+  <!-- parte 3 2.0 -->
+  <section id="top3" class="sobre-bg">
+    <div class="main-content top3-content">
+      <h2>Sobre nós</h2>
+      <p>Na Viva Farma, estamos dedicados a cuidar da sua saúde e bem-estar de maneira integral. Desde a nossa fundação, há mais de duas décadas, temos nos comprometido a oferecer produtos e serviços que promovam uma vida mais saudável para nossos clientes.</p>
+      <p>Nossa equipe é formada por profissionais qualificados e apaixonados pelo que fazem. Estamos aqui para ouvir suas necessidades e oferecer orientações personalizadas sobre medicamentos, produtos de saúde e bem-estar, além de conselhos sobre como manter um estilo de vida saudável.</p>
+      <p>Na Viva Farma, você encontrará uma ampla variedade de produtos farmacêuticos, desde medicamentos prescritos até opções naturais e complementares. Nosso compromisso com a qualidade se estende a cada produto que oferecemos em nossas prateleiras.</p>
+      <p>Além disso, valorizamos a proximidade com nossa comunidade. Estamos aqui para ser seu parceiro de confiança em saúde, oferecendo não apenas produtos, mas também educação e suporte contínuos para que você e sua família possam viver suas vidas da maneira mais saudável possível.</p>
+      <p>Visite-nos na Viva Farma e descubra como podemos ajudar a melhorar sua qualidade de vida, um passo de cada vez. Estamos aqui para você, hoje e sempre.
+      </p>
+      <p>Endereço: Avenida Brasil, 1010, Foz do Iguaçu</p>
+    </div>
+  </section>
+  <!-- parte 4 -->
+  <section id="grid-one" class="grid-one produtos-bg ">
+    <div class="main-content grid-one-content">
+      <!-- div estava errada correção -->
+      <h2 class="grid-main-heading">Tipos de Produtos</h2>
+      <p class="grid-description">Produtos oferecidos por nossa farmácia</p>
+      <div class="grid">
+        <article>
+          <h3>Medicamentos</h3>
+          <p>Oferecemos uma ampla variedade de medicamentos para atender às suas necessidades de saúde, desde tratamentos básicos até opções especializadas para condições específicas. Nossa equipe está aqui para garantir que você receba os cuidados farmacêuticos necessários.</p>
+        </article>
+        <article>
+          <h3>Higiene e Cuidado Pessoal</h3>
+          <p>Cuide de si mesmo com nossos produtos de higiene e cuidado pessoal. Oferecemos uma linha completa de produtos que ajudam a manter sua saúde e bem-estar diários, desde cuidados com a pele até cosméticos e itens essenciais de higiene pessoal.</p>
+        </article>
+        <article>
+          <h3>Produtos de Saúde Diversos</h3>
+          <p>Além de medicamentos e cuidados pessoais, também fornecemos uma variedade de produtos de saúde, como medidores de pressão, dispositivos médicos e até suplementos nutricionais.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- part 4.2 -->
+  <!-- source.unsplash.com/random/360x360 -->
+  <section id="gallery" class="grid-one white-bg ">
+    <div class="main-content grid-one-content">
+      <!-- div estava errada correção -->
+      <h2 class="grid-main-heading">Imagens dos produtos</h2>
+      <p class="grid-description">Exemplos de alguns de nossos produtos</p>
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="assets/img/6782-dorflexc36-cpr.jpg" height="360" width="400" alt="1" 
+          onclick="openModal('assets/img/6782-dorflexc36-cpr.jpg')">
+        </div>
+        <div class="gallery-img">
+          <img src="assets/img/104973---expec-legrand-pharma-xarope-120ml_0000_EXPEC-2024-7896004812168.png" height="360" width="400" alt="2" 
+          onclick="openModal('assets/img/104973---expec-legrand-pharma-xarope-120ml_0000_EXPEC-2024-7896004812168.png')">
+        </div>
+        <div class="gallery-img">
+          <img src="assets/img/vitaminas.webp" height="360" width="400" alt="3" 
+          onclick="openModal('assets/img/vitaminas.webp')">
+        </div>
+        <div class="gallery-img">
+          <img src="assets/img/repelente.webp" height="360" width="400" alt="4" 
+          onclick="openModal('assets/img/repelente.webp')">
+        </div>
+        <div class="gallery-img">
+          <img src="assets/img/termometro.webp" height="360" width="400" alt="5" 
+          onclick="openModal('assets/img/termometro.webp')">
+        </div>
+        <div class="gallery-img">
+          <img src="assets/img/creme.jpg" height="360" width="400" alt="6" 
+          onclick="openModal('assets/img/creme.jpg')">
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage" alt="">
+  </div>
+  <script src="assets/script.js"></script>
+
+  </section>
+  <!-- parte da tabela -->
+  <section id="pricing" class="tabela-bg">
+    <div class="main-content top3-content">
+      <h2>Serviços e Preços</h2>
+      <p>Na Viva Farma, oferecemos uma variedade de serviços para tornar sua experiência conosco ainda mais conveniente e completa. Desde entrega em domicílio de medicamentos até um serviço especializado de vacinação, estamos aqui para cuidar da sua saúde onde quer que você esteja</p>
+      <p>Nossa entrega em domicílio é rápida e confiável, garantindo que você receba seus medicamentos no conforto do seu lar. Para sua conveniência, também oferecemos serviços de recarga de receitas médicas online, facilitando o processo de reposição dos seus medicamentos.</p>
+      <div class="responsive-table">
+        <!-- tabela responsiva pra nos poder rolar nela -->
+        <!-- elements para configurar as tags -->
+        <table>
+          <caption>Tabela de Preços</caption>
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Remédio para dor de cabeça</td>
+              <td>R$10,00</td>
+            </tr>
+            <tr>
+              <td>Xarope para tosse</td>
+              <td>R$35,99</td>
+            </tr>
+            <tr>
+              <td>Protetor Solar</td>
+              <td>R$23,99</td>
+            </tr>
+            <tr>
+              <td>Suplementos</td>
+              <td>R$149,99</td>
+            </tr>
+            <tr>
+              <td>Creme Hidratante</td>
+              <td>R$55,00</td>
+            </tr>
+            <tr>
+              <td>Termômetro</td>
+              <td>R$15,99</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parte contact! -->
+  <form id="form">
+  <div id="contact" class="menu-spacing"></div>
+  <section class="contact-bg">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Contate-nos</h2>
+        <p>Estamos aqui para ajudar! Se você tiver alguma dúvida, comentário ou precisa de assistência, não hesite em nos contatar. Nossa equipe dedicada está pronta para oferecer o melhor atendimento possível..</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/logofarmacia.gif" alt="log de html js e css">
+      </div>
+
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Contate-nos</legend>
+
+          <div class="form-group">
+            <label for="first-name">Nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Seu primeiro nome">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" placeholder="Seu e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" rows="10" placeholder="Sua mensagem"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Enviar</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </section>
+</form>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>;
+  <script type="text/javascript">
+      (function () {
+          emailjs.init("AzE7mTAmoUZOzdyaB");
+      })();
+  </script>
+  <script>
+      document.getElementById('form').addEventListener('submit', function (event) {
+          event.preventDefault();
+          emailjs.sendForm('service_d098olz', 'template_3xzc7qk', this)
+              .then(function () {
+                  alert('Email enviado com sucesso!');
+              }, function (error) {
+                  alert('Erro ao enviar o email: ' + JSON.stringify(error));
+              });
+      });
+  </script>
+  <footer id="footer" class="footer white-bg">
+    <p><a href=""><span class="span"> &copy;</span> 2024 VIDA FARMA. Todos os
+        direitos reservados.</a></p>
+  </footer>
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
